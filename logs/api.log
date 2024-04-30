@@ -2088,3 +2088,15 @@
 30-04-2024 16:18:22.105 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53047
 30-04-2024 16:18:22.107 [Gauge] [DEBUG] Watching directory: C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs
 30-04-2024 16:18:22.108 [Gauge] [DEBUG] Found 2 files
+30-04-2024 16:18:34.828 [Gauge] [INFO] Initializing concepts cache with 5 concepts
+30-04-2024 16:18:34.828 [Gauge] [DEBUG] Adding concepts from C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs\example.cpt
+30-04-2024 16:18:34.828 [Gauge] [DEBUG] Adding concepts from C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs\example.cpt
+30-04-2024 16:18:34.829 [Gauge] [DEBUG] Adding concepts from C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs\example.cpt
+30-04-2024 16:18:34.829 [Gauge] [DEBUG] Adding concepts from C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs\example.cpt
+30-04-2024 16:18:34.829 [Gauge] [DEBUG] Adding concepts from C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs\example.cpt
+30-04-2024 16:18:34.832 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-04-2024 16:18:34.832 [Gauge] [DEBUG] Adding specs from C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs\example.spec
+30-04-2024 16:18:34.832 [Gauge] [INFO] Initializing steps cache with 2 steps
+30-04-2024 16:18:34.832 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53061
+30-04-2024 16:18:34.833 [Gauge] [DEBUG] Watching directory: C:\Users\irem.uguztemur\Downloads\SimpleGaugeProject\specs
+30-04-2024 16:18:34.834 [Gauge] [DEBUG] Found 2 files
