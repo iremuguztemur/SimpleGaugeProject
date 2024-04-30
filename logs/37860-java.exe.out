@@ -1,0 +1,35 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1297milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1297"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56112"}
+{"logLevel":"info","message":"Listening on port:56112"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.goToURL' and 'org.example.StepImplementation.goToURL'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementini seç ve týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.textControl' and 'org.example.StepImplementation.textControl'"}
+{"logLevel":"debug","message":"Found {} yazýsý sayfada bulunuyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.recommend' and 'org.example.StepImplementation.recommend'"}
+{"logLevel":"debug","message":"Found {} adresine hizmet öner in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.acceptCookies' and 'org.example.StepImplementation.acceptCookies'"}
+{"logLevel":"debug","message":"Found Sayfa çerezlerini Kabul et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.girisYap' and 'org.example.StepImplementation.girisYap'"}
+{"logLevel":"debug","message":"Found {} ve {} bilgileri ile hesaba giriþ yap in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} yazýsý sayfada bulunuyor mu kontrol et : public void textControl(String text) throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\t{} ve {} bilgileri ile hesaba giriþ yap : public void girisYap(String email, String password) throws IOException"}
+{"logLevel":"debug","message":"\t{} adresine hizmet öner : public void recommend(String address)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToURL(String address) throws IOException"}
+{"logLevel":"debug","message":"\tSayfa çerezlerini Kabul et : public void acceptCookies() throws IOException"}
+{"logLevel":"debug","message":"\t{} elementini seç ve týkla : public void clickElement(String text) throws IOException"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

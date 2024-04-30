@@ -1,0 +1,49 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1580milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1580"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64373"}
+{"logLevel":"info","message":"Listening on port:64373"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickLoginButton' and 'org.example.StepImplementation.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click on the login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.goToURL' and 'org.example.StepImplementation.goToURL'"}
+{"logLevel":"debug","message":"Found Open the login page {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.textControl' and 'org.example.StepImplementation.textControl'"}
+{"logLevel":"debug","message":"Found Verify the home page via {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.AddItemToCart' and 'org.example.StepImplementation.AddItemToCart'"}
+{"logLevel":"debug","message":"Found Add first item to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.enterEmailAddress' and 'org.example.StepImplementation.enterEmailAddress'"}
+{"logLevel":"debug","message":"Found Enter email address {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.enterPassword' and 'org.example.StepImplementation.enterPassword'"}
+{"logLevel":"debug","message":"Found Enter password {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter email address {} : public void enterEmailAddress(String email)"}
+{"logLevel":"debug","message":"\tClick on the login button : public void clickLoginButton() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tEnter password {} : public void enterPassword(String password)"}
+{"logLevel":"debug","message":"\tVerify the home page via {} : public void textControl(String text) throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tAdd first item to cart : public void AddItemToCart() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tOpen the login page {} : public void goToURL(String address) throws IOException"}
+{"logLevel":"debug","message":"Executing 'Open the login page {}' using 'class org.example.StepImplementation.goToURL"}
+Þub 19, 2024 1:50:58 ÖS org.example.StepImplementation goToURL
+INFO: https://www.saucedemo.com/ adresine gidildi
+{"logLevel":"debug","message":"Executing 'Enter email address {}' using 'class org.example.StepImplementation.enterEmailAddress"}
+{"logLevel":"debug","message":"Executing 'Enter password {}' using 'class org.example.StepImplementation.enterPassword"}
+{"logLevel":"debug","message":"Executing 'Click on the login button' using 'class org.example.StepImplementation.clickLoginButton"}
+Þub 19, 2024 1:50:59 ÖS org.example.StepImplementation clickLoginButton
+INFO: Clicked on the login button
+{"logLevel":"debug","message":"Executing 'Verify the home page via {}' using 'class org.example.StepImplementation.textControl"}
+Þub 19, 2024 1:50:59 ÖS org.example.StepImplementation textControl
+INFO: Product text found
+{"logLevel":"debug","message":"Executing 'Add first item to cart' using 'class org.example.StepImplementation.AddItemToCart"}
+Þub 19, 2024 1:50:59 ÖS org.example.StepImplementation AddItemToCart
+INFO: [[[FirefoxDriver: firefox on windows (c239b0fd-f103-4862-9161-dc6e7caa3a88)] -> xpath: //span[@class='shopping_cart_badge']]] Item added
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
